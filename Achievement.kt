@@ -1,13 +1,13 @@
 import java.util.Scanner
 
 fun main(args: Array<String>){
-	val classDays = 16;
+	val classDays = 16
 	println("出席日数を入力してください")
-	var attend : Int = Scanner(System.`in`).nextInt()
+	val attend : Int = Scanner(System.`in`).nextInt()
   println("成績を入力してください")
-  var score : Int = Scanner(System.`in`).nextInt()
+  val score : Int = Scanner(System.`in`).nextInt()
 
-	if(classDays / attend < 2/3){
+	if(attend/classDays < 11){
 		println("F")
 	}
 	else{
@@ -20,3 +20,11 @@ fun main(args: Array<String>){
 		}
 	}
 }
+
+/*
+出席日数を入力してください
+14
+成績を入力してください
+74
+B
+*/
