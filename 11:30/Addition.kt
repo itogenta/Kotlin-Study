@@ -10,7 +10,7 @@
 120
 */
 
-/*rik-ing作
+//rik-ing作
 import java.util.Scanner
 fun main(args: Array<String>){
   val scan = Scanner(System.`in`)
@@ -22,7 +22,7 @@ fun main(args: Array<String>){
 
   println(a)
 }
-*/
+
 
 
 
